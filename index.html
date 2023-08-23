@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:wght@700&display=swap"
+  rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <title>Angela Rosace - Portfolio</title>
+  
+  <!--open graph-->
+  <meta name="title" content="Angela Rosace - Portfolio">
+  <meta name="description" content="Ciao! Sono Angela Rosace e questo è il mio portfolio. Potrete vedere cio che più mi appassiona e le mie esperienze lavorative.">
+  <meta name="og:title" property:"og:title" content="Angela Rosace - Portfolio">
+  <meta property:"og:url" content="https://AngelaRosace-portfolio.github.io">
+  
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".nav">
+
+  <section class="home-page">
+    <!--cloud img-->
+    <div id="home" class="img-animation">
+      <img class="cloud-left" src="assets/img/nuvole-sinistra.png" id="hill1" alt="">
+      <img class="cloud-right" src="assets/img/nuvole-destra.png" id="hill2" alt="">
+    </div>
+
+    <!--navbar-->
+    <nav>
+      <div class="nav-content">
+        <div class="toggle-btn">
+          <ion-icon name="add-outline"></ion-icon>
+        </div>
+        <span style="--i:4;" data-bs-keyboard="false" data-bs-backdrop="static">
+          <a href="#contact"><ion-icon name="mail-open-outline"></ion-icon></a>
+        </span>
+        <span style="--i:3;" data-bs-keyboard="false" data-bs-backdrop="static">
+          <a href="#work"><ion-icon name="briefcase-outline"></ion-icon></a>
+        </span>
+        <span style="--i:2;">
+          <a href="#about"><ion-icon name="person-outline"></ion-icon></a>
+        </span>
+        <span style="--i:1;">
+          <a href="#home"><ion-icon name="home-outline"></ion-icon></a>
+        </span>
+      </div>
+    </nav>
+    <!--presentation-->
+    <header class="presentation" id="text">
+      <div class="my-name">
+        <img class="icon-cat" src="assets/img/black-cat (3).png" alt="">
+        <h1 class="welcome">Hi! I'm
+          <span data-text="Angela" class="my-name">ANGELA</span>
+        </h1>
+      </div>
+
+      <div class="text">
+        <p>I'm a</p>
+        <div class="speciality">
+          <p>Web Developer,</p>
+          <p>Pc Gamer,</p>
+          <p>Worker.</p>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <main>
+    <!--section 2-->
+    <section id="about" class="section" title="About Me">
+      <div class="content-section">
+        <div class="about-me">
+          <p>About Me</p>
+          <img class="catpaw" src="assets/img/catpaw1.png" alt="">
+        </div>
+        <div class="about-me-text">
+          <h3>Who is Angela?</h3>
+          <div class="box-about-me">
+            <p>
+              Hi! my name is Angela Rosace based in Veneto, Italy.
+              I'm 24 years old and actually I work in Poste Italiane.
+              I'm a girl who likes involvend and learn new things.
+              My interest in programming is started in 2022, in a moment in which i was a little lost.
+              I'm currently studying web developing (front end development) from start'Impact.
+            </p>
+            <div class="card-about">
+              <div class="card">
+                <img src="assets/img/icon/user.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">About Me</h5>
+                  <a id="scrolloff1" onclick="" href="#modal-aboutme" class="btn btn-primary">Open</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="assets/img/icon/skill.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Skills</h5>
+                  <a id="scrolloff2" href="#modal-skills" class="btn btn-primary">Open</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="assets/img/icon/shuttle.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Goals</h5>
+                  <a id="scrolloff3" href="#modal-goals" class="btn btn-primary">Open</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--modal section2-->
+        <div id="modal-aboutme">
+          <div class="modal-content-aboutme">
+            <h1>Biography</h1>
+            <img src="assets/img/photo.jpg" alt="">
+            <ul>
+              <li><i>Name:</i> Angela&#59;</li>
+              <li><i>Surname:</i> Rosace&#59;</li>
+              <li><i>Born:</i> Calabria, 1999&#59;</li>
+              <li><i>Nationality:</i> Italian&#59;</li>
+              <li><i>Hobby:</i> playing computer games, cooking, reading, draw. </li>
+            </ul>
+            <a id="scrollon1" href="#scrollabout"  class="close-modal"> &times;</a>
+          </div>
+        </div>
+
+        <div id="modal-skills">
+          <div class="modal-content-skills">
+            <h1>Skills</h1>
+
+            <div class="accordion">
+                <div class="accordion-content">
+                  <h2><ion-icon name="accessibility-outline"></ion-icon>Interpersonal</h2>
+                  <div class="accordion-cc-text">
+                    <ol>
+                      <li>Teamworking&#59;</li>
+                      <li>Problem-solving&#59;</li>
+                      <li>Adaptability&#59;</li>
+                    </ol>
+                    <ol>
+                      <li>Organization&#59;</li>
+                      <li>Flexibility&#59;</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div class="accordion-content">
+                  <h2><ion-icon name="code-working-outline"></ion-icon>Technical</h2>
+                  <div class="accordion-cc-text-skills">
+                    <p>Frontend Developer:</p>
+                    <ol>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Web Responsive</li>
+                      </ol>
+                    <ol>
+                      <li>bootstrap</li>
+                      <li>JavaScript (low)</li>
+                    </ol>
+                  </div>
+                  <p class="text-tools">Dev Tolls: VSCode, GitHub.</p>
+
+                </div>
+
+                <div class="accordion-content">
+                  <h2>Work Experience</h2>
+
+                  <div class="template">
+                    <div class="work-template">
+                      <h3 class="qualification-title">Poste Italiane</h3>
+                      <span class="qualification-subtitle">Mail lady</span>
+                      <div class="qualification-calendar">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <p>03/07/23 - present</p>
+                      </div>
+                    </div>
+  
+                    <div class="work-template">
+                      <h3 class="qualification-title">Cadoro</h3>
+                      <span class="qualification-subtitle">Perishables Employee</span>
+                      <div class="qualification-calendar">
+                        <ion-icon name="calendar-outline"></ion-icon>
+                        <p>02/05/22 - 24/06/23</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+
+              </div>
+              <a id="scrollon2" href="#about" class="close-modal"> &times;</a>
+            </div>
+          </div>
+
+        <div id="modal-goals">
+          <div class="modal-content-goals">
+            <h1>Goals</h1>
+            <p>I'm currently working and in the time I have free study. my initial goal was to find something to do that I enjoyed.
+              continuing to study, however, my goal has changed and now I would like to do it for work.
+              since i finished school, i have always worked. trying to learn all sides of the job and the different roles. in fact one of my goals is to learn as much as possible.</p>
+              
+            <a id="scrollon3" href="#about" class="close-modal"> &times;</a>
+          </div>
+        </div>
+
+      </div>
+    
+    </section>
+
+    <!--section 3-->
+    <section id="work" class="section section-work">
+      <div class="content-section">
+        <div class="work">
+          <p>Work</p>
+          <img class="catpaw cat1" src="assets/img/catpaw1.png" alt="">
+        </div>
+        <div class="work-text">
+          <h3>My Projects</h3>
+          <p>In this section you'll find some projects that I will upload during the Master of Start2Impact on GitHub.</p>
+          
+          <div class="box-work">
+            <input type="radio" name="slider" id="s1" checked>
+            <input type="radio" name="slider" id="s2">
+            <input type="radio" name="slider" id="s3">
+
+            <div class="cards">
+              <label for="s1" id="slide1">
+                <div class="card-work">
+                  <img src="assets/img/il-mio-portfolio.png" alt="">
+                  <a href="#slider1" class="button"></a>
+                  <div class="card-text">
+                    <h5>Portfolio</h5>
+                    <p>My first project in my life.
+                      I used HTML, CSS and a little of JS.</p>
+                      <ul class="card-icon">
+                        <li><a href="http://127.0.0.1:5501/index.html#scrollhome" target="_blank"><ion-icon name="eye-outline"></ion-icon></a></li>
+                        <li><a href="https://github.com/Giangy25/Angela-portfolio" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                      </ul>
+                  </div>
+                </div>
+              </label>
+  
+              <label for="s2" id="slide2">
+                <div class="card-work">
+                  <img src="assets/img/js.png" alt="">
+                  <a href="#slider2" class="button"></a>
+                  <div class="card-text">
+                    <h5>JavaScript Basic</h5>
+                    <p>Next project with JavaScript, soon you can find the repository on git hub.</p>
+                    <ul class="card-icon">
+                      <li><a href="http://127.0.0.1:5501/index.html#scrollhome" target="_blank"><ion-icon name="eye-outline"></ion-icon></a></li>
+                      <li><a href="https://github.com/Giangy25/Angela-portfolio" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </label>
+
+              <label for="s3" id="slide3">
+                <div class="card-work">
+                  <img src="assets/img/another-project.jpeg" alt="">
+                  <a href="#slider2" class="button"></a>
+                  <div class="card-text">
+                    <h5>another project</h5>
+                    <p>Next project with JavaScript, soon you can find the repository on git hub.</p>
+                    <ul class="card-icon">
+                      <li><a href="http://127.0.0.1:5501/index.html#scrollhome" target="_blank"><ion-icon name="eye-outline"></ion-icon></a></li>
+                      <li><a href="https://github.com/Giangy25/Angela-portfolio" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </label>
+
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section s-contact" id="contact">
+
+        <div class="content-section-contact">
+          <div class="contact-me">
+            <p>Contact Me</p>
+            <img class="catpaw" src="assets/img/catpaw1.png" alt="">
+          </div>
+          <div class="contact-text">
+            <h3>Get in Touch</h3>
+            <div class="box-contact"> 
+              <form action="https://formsubmit.co/angirosace99@gmail.com" method="POST">
+                <div class="inputbox">
+                  <input type="text" id="name" required autocomplete="given-name"> 
+                  <label for="name"><ion-icon class="user-icn" name="person-circle-outline"></ion-icon>Name</label>
+                </div>
+                <div class="inputbox">
+                  <input type="text" id="email" required autocomplete="address-line1">
+                  <label for="email"><ion-icon class="email-icn" name="mail-outline"></ion-icon>Email</label>
+                </div>
+                <div class="inputbox text-message">
+                  <textarea id="message"  rows="8" required></textarea>
+                  <label for="message"><ion-icon class="message-icn" name="chatbubbles-outline"></ion-icon>Message</label>
+                </div>
+                <button class="submit-button" type="submit">Submit</button>
+      
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+      <!--footer-->
+        <footer>
+          <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+          </div>
+          <ul class="social-icon">
+            <li><a href="https://discord.com/login?redirect_to=%2Fchannels%2F%40me" target="_blank"><ion-icon name="logo-discord"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/angiirosi/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://github.com/Giangy25" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+          </ul>
+  
+          <p>&#169; Angela Rosace 2023 &#124; All Rights Reserved</p>
+        </footer>
+      
+      </section>
+
+
+  </main>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
