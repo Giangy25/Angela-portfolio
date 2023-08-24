@@ -1485,6 +1485,9 @@ footer .wave#wave4 {
 }
 
 @media (max-width: 767px) {
+  footer {
+    background: rgb(239, 183, 210);
+  }
   footer .social-icon li {
     width: 70px;
     z-index: 999;
