@@ -141,10 +141,16 @@ nav.open .nav-content span {
 
 @media (max-width: 767px) {
   nav {
-    height: 220px;
-    width: 220px;
-    bottom: -42px;
+    height: 200px;
+    width: 200px;
+    bottom: -35px;
   }
+
+  .nav-content .toggle-btn,
+.nav-content span a {
+  height: 50px;
+  width: 50px;
+}
 
   nav.open .nav-content span {
     transform: rotate(calc(var(--i) * (350deg/8))) translateY(65px);
@@ -158,6 +164,10 @@ nav.open .nav-content span {
   .nav-content span {
     width: 100%;
     height: 100%;
+  }
+
+  .nav-content span a ion-icon {
+    width: 28px;
   }
 
 }
@@ -218,7 +228,7 @@ nav.open .nav-content span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: 160px;
+    top: 110px;
     width: 300px;
     height: 65%;
   }
@@ -400,9 +410,9 @@ nav.open .nav-content span {
 
   .about-me {
     width: 100%;
-    height: 130px;
+    height: 120px;
     padding-top: 15px;
-    font-size: 60px;
+    font-size: 58px;
     top: 15px;
   }
 
@@ -441,6 +451,7 @@ nav.open .nav-content span {
   .about-me-text p {
     font-size: 16px;
     margin: 0;
+    margin-top: 45px;
     padding: 10px;
   }
 }
@@ -551,15 +562,16 @@ nav.open .nav-content span {
 
   .card-about .card {
     height: 80%;
-    width: 80%;
-    margin-left: 20px;
+    width: 90%;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .card .card-img-top {
     height: 40px;
     width: 40px;
-    margin-left: 44px;
-    margin-right: 44px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -581,7 +593,7 @@ nav.open .nav-content span {
   }
 
   .card-body .btn {
-    width: 90%;
+    width: 100%;
     position: relative;
     left: 0;
   }
@@ -727,33 +739,47 @@ nav.open .nav-content span {
   #modal-skills .modal-content-skills,
   #modal-goals .modal-content-goals {
     height: 67%;
-    width: 93%;
-    margin: 20px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    left: 47.5%;
     position: relative;
-    left: 47%;
 }
 
 #modal-aboutme .modal-content-aboutme img {
-  width: 120px;
-  height: 150px;
+  width: 180px;
+  height: 200px;
   top: 5%;
-  margin-left: 10px;
+  left: 115px;
 }
 
 #modal-aboutme .modal-content-aboutme ul {
-  width: 55%;
+  width: 100%;
   padding: 0;
-  top: 10%;
+  top: 20%;
+  left: 1%;
 }
 
 #modal-aboutme .modal-content-aboutme h1,
 #modal-skills .modal-content-skills h1,
 #modal-goals .modal-content-goals h1 {
-  height: 50px;
+  height: 55px;
+  font-size: 48px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 #modal-goals .modal-content-goals p {
   margin-top: 35px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+#modal-aboutme a.close-modal,
+#modal-skills a.close-modal,
+#modal-goals a.close-modal {
+  top: 18px;
+  right: 30px;
 }
 }
 
@@ -919,9 +945,8 @@ nav.open .nav-content span {
   .accordion {
     flex-direction: column;
     height: 85%;
-    width: 92%;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 100%;
+    margin-left: 0;
     margin-top: 5px;
   }
 
@@ -1006,7 +1031,7 @@ nav.open .nav-content span {
   }
 
   .qualification-calendar p {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -1210,6 +1235,7 @@ nav.open .nav-content span {
     display: flex;
     flex-direction: row;
     height: 70%;
+    padding: 5px;
   }
 }
 
@@ -1338,23 +1364,35 @@ nav.open .nav-content span {
   }
 
   .cards label {
-    width: 70%;
+    width: 75%;
     height: 80%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 15px;
   }
   
   .card-work {
-    width: 100%;
+    width: 110%;
     height: 65%;
   }
 
+  .card-work img{
+    object-fit: cover;
+  }
+
   .card-text h5 {
-    font-size: 22px;
+    margin-bottom: 0;
+    font-size: 20px;
   }
 
   .card-text p {
-    font-size: 12px;
+    font-size: 14px;
+    height: 80px;
+    margin-bottom: 5px;
+  }
+
+  .card-icon {
+    height: 30px;
+    margin-bottom: 5px;
   }
 }
 
@@ -1487,6 +1525,8 @@ footer .wave#wave4 {
 @media (max-width: 767px) {
   footer {
     background: rgb(239, 183, 210);
+    padding-left: 20px;
+    padding-right: 20px;
   }
   footer .social-icon li {
     width: 70px;
@@ -1635,7 +1675,9 @@ label {
     width: 100%;
     height: 100px;
     padding-top: 5px;
-    font-size: 60px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 50px;
     top: 5px;
   }
 
@@ -1661,6 +1703,10 @@ label {
 
   .box-contact {
     height: 70%;
+  }
+
+  .box-contact form {
+    width: 70%;
   }
 }
 
