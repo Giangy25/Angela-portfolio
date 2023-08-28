@@ -505,6 +505,8 @@ nav.open .nav-content span {
 .card-about .card {
   width: 60%;
   height: 60%;
+  max-width: 60%;
+  max-height: 60%;
   margin-bottom: 15px;
   border-radius: 30px;
 }
@@ -1257,7 +1259,7 @@ nav.open .nav-content span {
 .cards {
   position: relative;
   height: 50%;
-  width: 60%;
+  width: 30%;
   perspective: 1000px;
   transform-style: preserve-3d;
 }
@@ -1265,7 +1267,7 @@ nav.open .nav-content span {
 .cards label {
   position: absolute;
   width: 280px;
-  height: 150px;
+  height: 380px;
   left: 0;
   right: 0;
   margin: auto;
@@ -1277,21 +1279,20 @@ nav.open .nav-content span {
 #s1:checked~.cards #slide2,
 #s2:checked~.cards #slide3,
 #s3:checked~.cards #slide1 {
-  transform: translate3d(-55%, 0, -120px);
-}
-
-#s1:checked~.cards #slide3,
-#s2:checked~.cards #slide1,
-#s3:checked~.cards #slide2 {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(-70%, 0, -120px);
 }
 
 #s1:checked~.cards #slide1,
 #s2:checked~.cards #slide2,
 #s3:checked~.cards #slide3 {
-  transform: translate3d(55%, 0, -120px);
-} 
+  transform: translate3d(0, 0, 0);
+}
 
+#s1:checked~.cards #slide3,
+#s2:checked~.cards #slide1,
+#s3:checked~.cards #slide2 {
+  transform: translate3d(70%, 0, -120px);
+} 
 
 .card-work {
   width: 280px;
@@ -1568,8 +1569,8 @@ footer .wave#wave4 {
   padding: 20px;
   top: 80px;
   left: 5%;
-  max-width: 900px;
-  max-height: 450px;
+  width: 70%;
+  height: 80%;
 }
 
 .contact-text h3 {
