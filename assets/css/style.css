@@ -1371,7 +1371,7 @@ nav.open .nav-content span {
 
 @media (max-width: 767px) {
   .cards {
-    width: 49%;
+    width: 47.5%;
     height: 90%;
     right: 1%;
   }
@@ -1387,7 +1387,7 @@ nav.open .nav-content span {
   }
 
   .card-work img{
-    height: 50%;
+    height: 48%;
     object-fit: cover;
   }
 
