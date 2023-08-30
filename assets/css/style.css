@@ -304,7 +304,7 @@ nav.open .nav-content span {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .speciality {
     width: 50%;
   }
@@ -397,6 +397,7 @@ nav.open .nav-content span {
   cursor: default;
   padding: 10px;
   padding-bottom: 60px;
+  padding-top: 55px;
 }
 
 @media (max-width: 767px) {
@@ -457,7 +458,7 @@ nav.open .nav-content span {
 }
 
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .content-section {
     width: 100%;
     margin-right: 5px;
@@ -487,7 +488,7 @@ nav.open .nav-content span {
 
   .about-me-text p {
     padding: 2px;
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
@@ -603,7 +604,7 @@ nav.open .nav-content span {
 
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .card-about .card  {
     width: 80%;
   }
@@ -797,7 +798,7 @@ nav.open .nav-content span {
 }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   #modal-aboutme .modal-content-aboutme,
   #modal-skills .modal-content-skills,
   #modal-goals .modal-content-goals {
@@ -814,6 +815,7 @@ nav.open .nav-content span {
     height: 250px;
     top: -5%;
     right: 5%;
+    margin-left: 10px;
   }
 
   #modal-aboutme .modal-content-aboutme ul {
@@ -823,6 +825,11 @@ nav.open .nav-content span {
   #modal-skills .modal-content-skills h1 {
     height: 40px;
     margin-top: 10px;
+  }
+
+  #modal-goals .modal-content-goals p {
+    font-size: 18px;
+    height: 240px;
   }
 }
 
@@ -1049,7 +1056,7 @@ nav.open .nav-content span {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .accordion {
     flex-direction: column;
     height: 80%;
@@ -1253,7 +1260,7 @@ nav.open .nav-content span {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .cat1 {
     object-fit: 100%;
     width: 220%;
@@ -1384,6 +1391,7 @@ nav.open .nav-content span {
   
   .card-work {
     width: 105%;
+    max-width: 230px;
     height: 100%;
   }
 
@@ -1413,15 +1421,45 @@ nav.open .nav-content span {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 1023px) {
   .cards {
     width: 80%;
     height: 80%;
   }
 
-  .card-work {
-    width: 88%;
+  .cards label {
+    width: 60%;
     height: 100%;
+  }
+
+  .card-work {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-work img{
+    height: 48%;
+    object-fit: cover;
+  }
+
+  .card-text {
+    height: 50%;
+  }
+
+  .card-text h5 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .card-text p {
+    font-size: 14px;
+    height: 80px;
+    margin-bottom: 5px;
+  }
+
+  .card-icon {
+    height: 30px;
+    margin-bottom: 5px;
   }
 
 }
