@@ -1180,6 +1180,8 @@ nav.open .nav-content span {
 
 .work p {
   position: relative;
+  height: auto;
+  top: 35%;
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
   z-index: 5;
@@ -1626,7 +1628,8 @@ footer .wave#wave4 {
 
 .contact-me p {
   position: relative;
-  top: -8%;
+  height: auto;
+  top: 50px;
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
   z-index: 5;
