@@ -323,7 +323,7 @@ nav.open .nav-content span {
 .content-section {
   position: relative;
   display: flex;
-  max-height: 750px;
+  height: 100%;
 }
 
 /*section2*/
@@ -1608,15 +1608,16 @@ footer .wave#wave4 {
 .content-section-contact {
   position: relative;
   display: flex;
-  max-height: 750px;
+  height: 100%;
 }
 
 .contact-me {
   position: relative;
   text-align: center;
   width: 15%;
+  max-height: 600px;
   left: 0;
-  font-size: 60px;
+  font-size: 68px;
   color: white;
   text-shadow: 5px 5px rgb(20, 0, 53);
   letter-spacing: 2px;
@@ -1673,7 +1674,7 @@ footer .wave#wave4 {
 }
 
 .text-message {
-  height: 45%;
+  height: 35%;
 }
 
 input, textarea {
