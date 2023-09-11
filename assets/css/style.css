@@ -1802,6 +1802,14 @@ label {
     max-height: 600px;
   }
 
+  .contact-me p {
+    writing-mode: horizontal-tb;
+    transform: none;
+    top: 0;
+    margin-bottom: 0;
+  }
+
+
 
   .box-contact form {
     width: 90%;
