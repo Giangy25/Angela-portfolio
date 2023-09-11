@@ -1615,7 +1615,7 @@ footer .wave#wave4 {
   position: relative;
   text-align: center;
   width: 15%;
-  max-height: 600px;
+  max-height: 650px;
   left: 0;
   font-size: 68px;
   color: white;
@@ -1638,7 +1638,7 @@ footer .wave#wave4 {
   align-self: center;
   position: relative;
   padding: 10px;
-  top: -40px;
+  top: -50px;
 
   left: 5%;
   width: 70%;
@@ -1657,7 +1657,7 @@ footer .wave#wave4 {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 85%;
+  height: 80%;
   padding-top: 15px;
   padding-bottom: 15px;
 }
