@@ -1247,6 +1247,7 @@ nav.open .nav-content span {
   .work p {
     writing-mode: horizontal-tb;
     transform: none;
+    top: 0;
     margin: 0;
   }
 
@@ -1759,6 +1760,7 @@ label {
   .contact-me p {
     writing-mode: horizontal-tb;
     transform: none;
+    top: 0;
     margin-bottom: 0;
   }
 
