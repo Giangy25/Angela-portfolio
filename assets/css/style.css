@@ -1615,7 +1615,6 @@ footer .wave#wave4 {
   position: relative;
   text-align: center;
   width: 15%;
-  max-height: 650px;
   left: 0;
   font-size: 68px;
   color: white;
@@ -1627,6 +1626,7 @@ footer .wave#wave4 {
 
 .contact-me p {
   position: relative;
+  top: -8%;
   writing-mode: vertical-lr;
   transform: rotate(-180deg);
   z-index: 5;
