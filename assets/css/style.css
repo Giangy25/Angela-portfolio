@@ -323,7 +323,7 @@ nav.open .nav-content span {
 .content-section {
   position: relative;
   display: flex;
-  height: 100%;
+  max-height: 750px;
 }
 
 /*section2*/
@@ -1608,7 +1608,7 @@ footer .wave#wave4 {
 .content-section-contact {
   position: relative;
   display: flex;
-  height: 100%;
+  max-height: 750px;
 }
 
 .contact-me {
