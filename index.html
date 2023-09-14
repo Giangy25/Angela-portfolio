@@ -133,14 +133,16 @@
         <div id="modal-aboutme">
           <div class="modal-content-aboutme">
             <h1>Biography</h1>
-            <img src="assets/img/photo.jpg" alt="">
-            <ul>
-              <li><i>Name:</i> Angela&#59;</li>
-              <li><i>Surname:</i> Rosace&#59;</li>
-              <li><i>Born:</i> Calabria, 1999&#59;</li>
-              <li><i>Nationality:</i> Italian&#59;</li>
-              <li><i>Hobby:</i> playing computer games, cooking, reading, draw. </li>
-            </ul>
+            <div class="modal-content-TF">
+              <img src="assets/img/photo.jpg" alt="">
+              <ul>
+                <li><i>Name:</i> Angela&#59;</li>
+                <li><i>Surname:</i> Rosace&#59;</li>
+                <li><i>Born:</i> Calabria, 1999&#59;</li>
+                <li><i>Nationality:</i> Italian&#59;</li>
+                <li><i>Hobby:</i> playing computer games, cooking, reading, draw. </li>
+              </ul>
+            </div>
             <a id="scrollon1" href="#scrollabout"  class="close-modal"> &times;</a>
           </div>
         </div>
@@ -311,17 +313,17 @@
           <div class="contact-text">
             <h3>Get in Touch</h3>
             <div class="box-contact"> 
-              <form action="https://formsubmit.co/angirosace99@gmail.com" method="POST">
+              <form action="https://formspree.io/f/xvojqapw" method="POST">
                 <div class="inputbox">
-                  <input type="text" id="name" required autocomplete="given-name"> 
+                  <input type="name" name="name" id="name" required autocomplete="given-name"> 
                   <label for="name"><ion-icon class="user-icn" name="person-circle-outline"></ion-icon>Name</label>
                 </div>
                 <div class="inputbox">
-                  <input type="text" id="email" required autocomplete="address-line1">
+                  <input type="email" name="email" id="email" required autocomplete="address-line1">
                   <label for="email"><ion-icon class="email-icn" name="mail-outline"></ion-icon>Email</label>
                 </div>
                 <div class="inputbox text-message">
-                  <textarea id="message"  rows="8" required></textarea>
+                  <textarea name="message" id="message"  rows="8" required></textarea>
                   <label for="message"><ion-icon class="message-icn" name="chatbubbles-outline"></ion-icon>Message</label>
                 </div>
                 <button class="submit-button" type="submit">Submit</button>
